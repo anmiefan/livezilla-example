@@ -1,0 +1,11 @@
+{
+  "id": "db",
+  "env": {
+    "MYSQL_ROOT_PASSWORD": "passw0rd",
+    "MYSQL_DATABASE": "livezilla"
+  },
+  "volumes": {
+    "data": "/var/lib/mysql"
+  },
+  "zeroDowntime": false
+}

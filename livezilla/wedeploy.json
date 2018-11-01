@@ -1,0 +1,10 @@
+{
+    "id": "livezilla",
+    "dependencies": ["db"],
+    "volumes":{
+        "conf": "/livezilla"
+    },
+    "healthCheck": {
+        "url": "localhost"
+    }
+}
